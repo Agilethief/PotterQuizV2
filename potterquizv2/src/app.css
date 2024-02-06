@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	h1 {
+		@apply text-slate-900 dark:text-slate-50;
+	}
+	p {
+		@apply text-slate-900 dark:text-slate-50;
+	}
+	.essay_content {
+		@apply text-slate-900 dark:text-slate-50;
+	}
+
+	.essay_content h2 {
+		@apply text-xl font-semibold;
+	}
+	.essay_content h1 {
+		@apply text-2xl font-semibold;
+	}
+	.essay_content h3 {
+		@apply text-lg font-semibold;
+	}
+	.essay_content h4 {
+		@apply text-lg font-semibold;
+	}
+	.essay_content ol {
+		@apply list-inside list-decimal indent-1.5;
+	}
+	.essay_content ul {
+		@apply list-inside list-disc indent-1.5;
+	}
+	.essay_content blockquote {
+		@apply m-4 rounded border-l-8 border-blue-700 bg-slate-300 p-3;
+	}
+	.essay_content .ql-syntax {
+		@apply m-4 rounded border-2 border-blue-700 bg-slate-600 p-3 text-white;
+	}
+	.essay_content .ql-indent-1 {
+		@apply indent-1.5;
+	}
+	.essay_content .ql-indent-2 {
+		@apply indent-3;
+	}
+	.essay_content .ql-indent-3 {
+		@apply indent-6;
+	}
+	.essay_content .ql-size-small {
+		@apply text-sm;
+	}
+	.essay_content .ql-size-large {
+		@apply text-xl;
+	}
+	.essay_content .ql-size-huge {
+		@apply text-3xl;
+	}
+	.essay_content .ql-align-center {
+		@apply text-center;
+	}
+	.essay_content .ql-align-right {
+		@apply text-right;
+	}
+	.essay_content .ql-align-justify {
+		@apply text-justify;
+	}
+}

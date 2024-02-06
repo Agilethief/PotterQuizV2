@@ -1,0 +1,10 @@
+{
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#292B37",
+    "titleBar.activeBackground": "#393C4D",
+    "titleBar.activeForeground": "#FAFAFB"
+  }
+}
